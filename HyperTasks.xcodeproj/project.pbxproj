@@ -12,6 +12,7 @@
 		AB7D76122316ECB300A14752 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB7D76102316ECB300A14752 /* MainMenu.xib */; };
 		AB7D761E2316ECB300A14752 /* HyperTasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D761D2316ECB300A14752 /* HyperTasksTests.swift */; };
 		AB7D76292316ECB300A14752 /* HyperTasksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D76282316ECB300A14752 /* HyperTasksUITests.swift */; };
+		AB7D76382316ED8800A14752 /* Hypervisor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7D76372316ED8800A14752 /* Hypervisor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		AB7D76242316ECB300A14752 /* HyperTasksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperTasksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7D76282316ECB300A14752 /* HyperTasksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperTasksUITests.swift; sourceTree = "<group>"; };
 		AB7D762A2316ECB300A14752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7D76372316ED8800A14752 /* Hypervisor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hypervisor.framework; path = System/Library/Frameworks/Hypervisor.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7D76382316ED8800A14752 /* Hypervisor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +81,7 @@
 				AB7D761C2316ECB300A14752 /* HyperTasksTests */,
 				AB7D76272316ECB300A14752 /* HyperTasksUITests */,
 				AB7D760A2316ECB100A14752 /* Products */,
+				AB7D76362316ED8800A14752 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +123,14 @@
 				AB7D762A2316ECB300A14752 /* Info.plist */,
 			);
 			path = HyperTasksUITests;
+			sourceTree = "<group>";
+		};
+		AB7D76362316ED8800A14752 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB7D76372316ED8800A14752 /* Hypervisor.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
